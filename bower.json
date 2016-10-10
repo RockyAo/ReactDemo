@@ -1,0 +1,17 @@
+{
+  "name": "reactqa",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Rocky <542622608@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/RockyAo/ReactDemo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
