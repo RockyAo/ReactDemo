@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     connect = require('gulp-connect'),
     browserify = require('gulp-browserify'),
     concat = require('gulp-concat'),
-    port = process.env.port || 5000;
+    port = process.env.port || 7000;
 
 gulp.task('browserify',function () {
 
@@ -19,7 +19,7 @@ gulp.task('connect',function () {
     connect.server({
         root:'./',
         port:port,
-        livereload:true,
+        livereload:false,
     })
 });
 
